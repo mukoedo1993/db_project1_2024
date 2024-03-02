@@ -1,0 +1,28 @@
+DROP TABLE IF EXISTS user_review;
+DROP TABLE IF EXISTS order_line;
+DROP TABLE IF EXISTS shop_order;
+DROP TABLE IF EXISTS food_order;
+DROP TABLE IF EXISTS order_status;
+DROP TABLE IF EXISTS shipping_method;
+DROP TABLE IF EXISTS shopping_cart_item;
+DROP TABLE IF EXISTS shopping_cart;
+DROP TABLE IF EXISTS user_payment_method;
+DROP TABLE IF EXISTS payment_type;
+DROP TABLE IF EXISTS product_configuration;
+-- DROP TABLES.
+USE ecommerce;
+DROP TABLE IF EXISTS food_category;
+DROP TABLE IF EXISTS food_item;
+DROP TABLE IF EXISTS variation_option;
+DROP TABLE IF EXISTS variation;
+DROP TABLE IF EXISTS product_item;
+DROP TABLE IF EXISTS product;
+DROP TABLE IF EXISTS promotion_category;
+DROP TABLE IF EXISTS promotion;
+DROP TABLE IF EXISTS product_category;
+DROP TABLE IF EXISTS parent_category;
+DROP TABLE IF EXISTS user_address;
+DROP TABLE IF EXISTS site_user;
+DROP TABLE IF EXISTS address;
+DROP TABLE IF EXISTS country;
+DROP TABLE IF EXISTS food;
